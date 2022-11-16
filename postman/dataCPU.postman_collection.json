@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "dedffdc4-0d93-41d5-81e0-da56b461b9f0",
+		"name": "dataCPU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19874365"
+	},
+	"item": [
+		{
+			"name": "GetAllData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertData",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"_id\": \"5b453fb83de88413bc523928\",\r\n    \"cpuname\": \"SafeClick_CPU\",\r\n    \"type\": \"Windows_NT\",\r\n    \"platform\": \"win32\",\r\n    \"release\": \"10.0.17134\",\r\n    \"remainingRam\": 11338039296,\r\n    \"totalRam\": 17063497728\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
