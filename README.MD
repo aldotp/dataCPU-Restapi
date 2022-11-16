@@ -1,21 +1,20 @@
-# dataCPU API
+# Data-CPU-RestfulAPI
 
 **URL API:**
 > http://127.0.0.1:3000
 
 
-*ENDPOINT
-
+*ENDPOINT*
 
 - GET /api/data
 Menampilkan Data 
 
 - POST /api/data
-Insert Data
+Insert Data (tanpa request body)
 
-# RUN 
+# How to use
 - npm install
 - node index.js
 
-# notes
+# Notes
 - database sudah terhosting (free), tinggal dijalankan
