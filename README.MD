@@ -4,7 +4,7 @@
 > http://127.0.0.1:3000
 
 
-*ENDPOINT*
+**ENDPOINT**
 
 - GET /api/data
 Menampilkan Data 
@@ -12,9 +12,10 @@ Menampilkan Data
 - POST /api/data
 Insert Data (tanpa request body)
 
-# How to use
+**HOW TO USE**
 - npm install
 - node index.js
 
-# Notes
+**Notes**
 - database sudah terhosting (free), tinggal dijalankan
+- bisa testing dengan export file postman (didalam folder postman)
